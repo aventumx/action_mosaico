@@ -1,0 +1,6 @@
+require:
+  - rubocop-minitest
+  - rubocop-rake
+AllCops:
+  NewCops: enable
+  TargetRubyVersion: 2.7
