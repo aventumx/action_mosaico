@@ -15,8 +15,6 @@ Gem::Specification.new do |spec|
   spec.required_ruby_version     = '>= 2.7.0'
   spec.required_rubygems_version = '>= 1.8.11'
 
-  spec.metadata['allowed_push_host'] = "TODO: Set to your gem server 'https://example.com'"
-
   spec.metadata['homepage_uri'] = spec.homepage
   spec.metadata['source_code_uri'] = 'https://github.com/aventumx/action_mosaico'
   spec.metadata['changelog_uri'] = 'https://github.com/aventumx/action_mosaico'
@@ -35,12 +33,12 @@ Gem::Specification.new do |spec|
   # Uncomment to register a new dependency of your gem
   # spec.add_dependency "example-gem", "~> 1.0"
 
-  s.add_dependency 'activesupport', '~> 6.1'
-  s.add_dependency 'activerecord',  '~> 6.1'
-  s.add_dependency 'activestorage', '~> 6.1'
-  s.add_dependency 'actionpack',    '~> 6.1'
+  spec.add_dependency 'activesupport', '>= 6.1'
+  spec.add_dependency 'activerecord',  '>= 6.1'
+  spec.add_dependency 'activestorage', '>= 6.1'
+  spec.add_dependency 'actionpack',    '>= 6.1'
 
-  s.add_dependency 'nokogiri', '>= 1.8.5'
+  spec.add_dependency 'nokogiri', '>= 1.8.5'
 
   # For more information and examples about making a new gem, checkout our
   # guide at: https://bundler.io/guides/creating_gem.html

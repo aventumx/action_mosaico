@@ -32,7 +32,7 @@ module ActionMosaico
       end
 
       def create_actionmosaico_files
-        template 'actionmosaico.css', 'app/assets/stylesheets/actionmosaico.css'
+        template 'action_mosaico.css', 'app/assets/stylesheets/action_mosaico.css'
 
         gem_root = "#{__dir__}/../../../.."
 
