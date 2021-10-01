@@ -32,15 +32,6 @@ module ActionMosaico
       end
 
       def create_actionmosaico_files
-        template 'actionmosaico.css', 'app/assets/stylesheets/actionmosaico.css'
-
-        gem_root = "#{__dir__}/../../../.."
-
-        copy_file "#{gem_root}/app/views/active_storage/blobs/_blob.html.erb",
-                  'app/views/active_storage/blobs/_blob.html.erb'
-
-        copy_file "#{gem_root}/app/views/layouts/action_mosaico/contents/_content.html.erb",
-                  'app/views/layouts/action_mosaico/contents/_content.html.erb'
       end
 
       def enable_image_processing_gem
