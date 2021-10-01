@@ -32,8 +32,6 @@ module ActionMosaico
       end
 
       def create_actionmosaico_files
-        template 'actionmosaico.css', 'app/assets/stylesheets/actionmosaico.css'
-
         gem_root = "#{__dir__}/../../../.."
 
         copy_file "#{gem_root}/app/views/active_storage/blobs/_blob.html.erb",
