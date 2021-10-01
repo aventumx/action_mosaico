@@ -21,12 +21,12 @@
   ],
   "license": "MIT",
   "dependencies": {
-    "@rails/activestorage": ">= 7.0.0-alpha1"
+    "@rails/actiontext": ">= 7.0.0-alpha1"
   },
   "peerDependencies": {
     "mosaico": "^0.17.5"
   },
   "devDependencies": {
-    "trix": "^0.17.5"
-  },
+    "mosaico": "^0.17.5"
+  }
 }

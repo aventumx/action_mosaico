@@ -9,3 +9,9 @@
 
 # IDE logs
 .idea
+
+# Ignore Yarn lock
+/yarn.lock
+
+# Ignore nodemules
+/node_modules
